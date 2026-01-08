@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Sulaiman | Software Developer</title>
+    <meta name="description" content="Portfolio of Ahmad Sulaiman, a Software Developer and Computer Science undergraduate based in Nigeria.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="#home">AS.</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="btn btn-outline" onclick="alert('Resume download placeholder')">Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Hi, my name is</p>
+                <h1 class="hero-title">Ahmad Sulaiman.</h1>
+                <h2 class="hero-title-secondary">I build things for the web.</h2>
+                <p class="hero-description">
+                    I'm a Software Developer and Computer Science undergraduate based in Benin City, Nigeria. 
+                    I specialize in building exceptional digital experiences, from robust backends to interactive frontends.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section container">
+            <h2 class="section-title"><span class="section-number">01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello! My name is Ahmad and I enjoy creating things that live on the internet. My interest in web development started when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS is pretty fun!
+                    </p>
+                    <p>
+                        Fast-forward to today, I am a 400-level <strong>Computer Science</strong> student at the <strong>Federal University of Technology Minna</strong>. I've had the privilege of participating in national tech programs like <strong>3MTT Software Development</strong> and <strong>3MTT DeepTech</strong> (Data Science & Machine Learning).
+                    </p>
+                    <p>
+                        I am currently seeking an <strong>IT/SIWES placement</strong> where I can contribute to meaningful software development projects while further honing my skills.
+                    </p>
+                </div>
+                <!-- Optional: Add an image here if the user provides one -->
+                <div class="about-img">
+                    <div class="img-wrapper">
+                         <!-- Placeholder for profile image -->
+                         <div class="img-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section container">
+            <h2 class="section-title"><span class="section-number">02.</span> Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Science & MI</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Pandas & NumPy</li>
+                        <li>Matplotlib & Seaborn</li>
+                        <li>Scikit-learn & TensorFlow</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Command Line</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section container">
+            <h2 class="section-title"><span class="section-number">03.</span> Some Things I've Built</h2>
+            
+            <div class="projects-list">
+                
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-overline">Featured Project</p>
+                        <h3 class="project-title">Student Registration Portal</h3>
+                        <div class="project-description">
+                            <p>A web-based application designed to streamline the student registration process and manage academic records efficiently.</p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>MySQL</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-overline">Featured Project</p>
+                        <h3 class="project-title">Car Price Prediction</h3>
+                        <div class="project-description">
+                            <p>A machine learning project involving data cleaning, analysis, and model creation to predict car prices with high accuracy.</p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Python</li>
+                            <li>Scikit-learn</li>
+                            <li>Pandas</li>
+                            <li>NumPy</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-overline">Featured Project</p>
+                        <h3 class="project-title">Personal Portfolio</h3>
+                        <div class="project-description">
+                            <p>A modern, responsive portfolio website built to showcase my skills, projects, and professional background. (You are looking at it!)</p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section container center-text">
+            <p class="contact-overline">04. What's Next?</p>
+            <h2 class="contact-title">Get In Touch</h2>
+            <p class="contact-description">
+                I am currently looking for an IT/SIWES placement. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <a href="mailto:ahmadxrm@gmail.com" class="btn btn-primary">Say Hello</a>
+
+            <div class="social-links-footer">
+                <a href="https://github.com/Ahmadxrm" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/ahmad-sulaiman-87b1b5209" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Built by Ahmad Sulaiman &copy; <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
